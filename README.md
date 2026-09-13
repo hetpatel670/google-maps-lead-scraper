@@ -7,25 +7,6 @@
 
 A free, high-speed, open-source Google Chrome Extension (Manifest V3) engineered to extract **1,000+ verified B2B leads** directly from Google Maps with automated multi-city expansion, no-website prospect filtering, and AI-powered sales pitch generation.
 
-Built and open-sourced by **BizGuides Agency** — a specialized **Website Design & Building Agency for Local Businesses**.
-
----
-
-## 🏢 About BizGuides Agency
-
-**BizGuides** is a premier **Website Design & Building Agency** dedicated to helping local businesses build high-converting online presences and dominate their local markets.
-
-### What We Do:
-- 🌐 **Custom Website Design & Development**: Modern, lightning-fast, mobile-responsive websites tailored for local contractors, plumbers, roofers, dentists, doctors, law firms, and service providers.
-- 📈 **Conversion-Optimized Landing Pages**: Built specifically to turn local Google visitors and searchers into phone calls, quote requests, and booked appointments.
-- 🔍 **Local SEO & Google Business Optimization**: Helping local businesses rank at the top of Google Search and Google Maps.
-- ⚡ **Speed & Modernization Re-designs**: Transforming old, outdated, slow websites into high-performance digital assets.
-
-### 💡 Why We Built This Tool:
-As a web design agency, finding local businesses operating **without a website** (or with broken/outdated websites) is the single most effective way to land high-ticket web design and development clients. 
-
-We originally built this Google Maps scraper for our own internal client prospecting workflows. We have now **open-sourced it for the community** so fellow web design agencies, freelancers, marketers, and sales teams can easily discover unserved local businesses and close more web design clients without paying for expensive SaaS scraping subscriptions.
-
 ---
 
 ## 🚀 Key Features
