@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "BizGuides - 1,000+ Google Maps B2B Lead Scraper",
+  "version": "2.0.0",
+  "description": "Official BizGuides Google Maps B2B Lead Scraper. Extract 1,000+ local businesses, filter no-website leads, and export to CSV.",
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://www.google.com/maps/*",
+    "*://maps.google.com/*",
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none';"
+  },
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel/index.html"
+  },
+  "action": {
+    "default_title": "Open BizGuides Side Panel",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/maps/*",
+        "*://maps.google.com/*"
+      ],
+      "js": [
+        "utils/logger.js",
+        "utils/normalization.js",
+        "utils/deduplication.js",
+        "utils/location-matrix.js",
+        "storage/storage-manager.js",
+        "content/website-detector.js",
+        "content/result-parser.js",
+        "content/maps-detector.js",
+        "content/maps-extractor.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

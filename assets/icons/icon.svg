@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="128" height="128" rx="28" fill="url(#grad)" />
+
+  <!-- Map Pin / Target Icon -->
+  <g filter="url(#shadow)">
+    <!-- Pin body -->
+    <path d="M64 24 C46.3 24 32 38.3 32 56 C32 78 64 104 64 104 C64 104 96 78 96 56 C96 38.3 81.7 24 64 24 Z" fill="url(#pinGrad)" />
+    <!-- Pin inner circle -->
+    <circle cx="64" cy="54" r="14" fill="#3B82F6" />
+    <!-- Search / Target lens -->
+    <circle cx="64" cy="54" r="7" fill="#FFFFFF" />
+  </g>
+
+  <!-- Sparkle AI Accent -->
+  <path d="M96 22 L99 30 L107 33 L99 36 L96 44 L93 36 L85 33 L93 30 Z" fill="#FACC15" />
+</svg>
