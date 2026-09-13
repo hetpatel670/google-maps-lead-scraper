@@ -5,34 +5,40 @@
 [![Built by BizGuides Agency](https://img.shields.io/badge/Built%20by-BizGuides%20Agency-purple.svg)](https://github.com/hetpatel670/google-maps-lead-scraper)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/hetpatel670/google-maps-lead-scraper)
 
-A free, fast, and open-source Google Chrome Extension (Manifest V3) engineered to extract **1,000+ verified B2B leads** directly from Google Maps with automated multi-city expansion, no-website prospect filtering, and AI-powered sales pitch generation.
+A free, high-speed, open-source Google Chrome Extension (Manifest V3) engineered to extract **1,000+ verified B2B leads** directly from Google Maps with automated multi-city expansion, no-website prospect filtering, and AI-powered sales pitch generation.
 
-Built and open-sourced by **BizGuides Agency**.
+Built and open-sourced by **BizGuides Agency** — a specialized **Website Design & Building Agency for Local Businesses**.
 
 ---
 
 ## 🏢 About BizGuides Agency
 
-**BizGuides** is a digital growth & B2B client acquisition agency specializing in:
-- 🎯 **Automated Outbound Lead Infrastructure**: Building scalable cold email, LinkedIn, and cold calling acquisition funnels.
-- 🌐 **High-Converting Web Development**: Modern, high-speed websites designed for local businesses and enterprise service providers.
-- ⚡ **Custom Growth Tools & Automation**: Developing proprietary scrapers, CRM integrations, and sales intelligence software.
+**BizGuides** is a premier **Website Design & Building Agency** dedicated to helping local businesses build high-converting online presences and dominate their local markets.
 
-We created and open-sourced this **Google Maps B2B Lead Scraper** to give agencies, founders, freelancers, and sales teams access to enterprise-grade lead generation software without expensive monthly subscription fees or scraping credits.
+### What We Do:
+- 🌐 **Custom Website Design & Development**: Modern, lightning-fast, mobile-responsive websites tailored for local contractors, plumbers, roofers, dentists, doctors, law firms, and service providers.
+- 📈 **Conversion-Optimized Landing Pages**: Built specifically to turn local Google visitors and searchers into phone calls, quote requests, and booked appointments.
+- 🔍 **Local SEO & Google Business Optimization**: Helping local businesses rank at the top of Google Search and Google Maps.
+- ⚡ **Speed & Modernization Re-designs**: Transforming old, outdated, slow websites into high-performance digital assets.
+
+### 💡 Why We Built This Tool:
+As a web design agency, finding local businesses operating **without a website** (or with broken/outdated websites) is the single most effective way to land high-ticket web design and development clients. 
+
+We originally built this Google Maps scraper for our own internal client prospecting workflows. We have now **open-sourced it for the community** so fellow web design agencies, freelancers, marketers, and sales teams can easily discover unserved local businesses and close more web design clients without paying for expensive SaaS scraping subscriptions.
 
 ---
 
 ## 🚀 Key Features
 
 - ⚡ **1,000+ Bulk Lead Extraction**: Seamlessly extract 50, 250, 500, or 1,000+ leads in a single automated session.
-- 🔴 **"No-Website" Lead Finder**: Instantly isolate local businesses operating without a website—the highest-converting target for web design, SEO, and digital marketing agencies.
+- 🔴 **"No-Website" Lead Finder**: Instantly isolate local businesses that don't have a website—the highest-converting target for web design, SEO, and re-branding pitches.
 - 📍 **Multi-City Automated Expansion**:
   - Automatically expands broad regional queries (e.g., `"scrape 1000 dentists in usa"` or `"haulage companies in Australia"`) across high-density metro and regional city sequences.
   - Automatically transitions between cities without interrupting your extraction session.
 - 🎯 **Interactive Decision Modal**:
   - If a city exhausts all visible business listings on Google Maps before hitting your target lead count, the extension prompts you with nearby cities or related commercial niches to continue extracting effortlessly.
 - 🧠 **AI Cold Outreach Pitch Hooks (Optional)**:
-  - Connect your free Google Gemini API key to generate customized 1-sentence sales pitch hooks tailored to each business's category and online presence.
+  - Connect your free Google Gemini API key to generate customized 1-sentence sales pitch hooks tailored to each business's category and lack of a website.
 - 🔒 **Privacy First & Formula Injection Safe (CWE-1236)**:
   - Zero external telemetry; 100% of data stays locally on your device.
   - Exported CSVs are sanitized against spreadsheet formula injection attacks.
@@ -192,4 +198,4 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 ---
 
-**Built with ❤️ by BizGuides Agency**
+**Built with ❤️ by BizGuides Agency — Web Design & Development for Local Businesses**

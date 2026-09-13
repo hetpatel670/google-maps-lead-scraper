@@ -3,7 +3,7 @@
   "name": "Google Maps B2B Lead Scraper - by BizGuides",
   "version": "2.0.0",
   "author": "BizGuides Agency",
-  "description": "High-volume Google Maps B2B lead extractor built by BizGuides Agency. Extract 1,000+ local businesses, filter no-website leads, and export to CSV.",
+  "description": "High-volume Google Maps B2B lead extractor built by BizGuides (Web Design Agency for Local Businesses). Extract 1,000+ local businesses, filter no-website prospects, and export to CSV.",
   "permissions": [
     "storage",
     "sidePanel",
